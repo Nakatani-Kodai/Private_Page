@@ -1,3 +1,39 @@
-.test{
-    color: red;
+#container{
+    margin: 35px;
+}
+
+#header{
+    // ヘッダー全体のマージン
+    margin-top: 35px;
+    #title{
+        :nth-child(1){
+            font-weight: bold;
+        }
+        :nth-child(3){
+            font-size: 12px;
+            margin-left: 35px;
+        }
+    }
+    #menu{
+        text-align: left; 
+        ul{
+            list-style-type: none;
+            text-align: right;
+        }
+        li{
+            display: inline-block;
+            margin: 10px;
+            font-weight: bold;
+        }
+    }
+}
+
+#main{
+    div:nth-child(1){
+        margin: 30px;
+        span {
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
 }
