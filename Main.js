@@ -87,10 +87,7 @@ $(function(){
     ctx.fillText("that can't be reflected in picture.", 40, 200);
   }
 
+  // 定義したメソッドの呼び出し
   init();
   render();
 });
-
-// $(document).on('click', '#test_button', function(){
-//   alert("testです");
-// });
